@@ -1,0 +1,50 @@
+body{background-color:black;
+}
+h2{color: white;}
+p{color: white;}
+    
+
+
+
+.grid{
+    width: 100%;
+    flex-wrap: wrap;
+    max-width: 50%;
+    display:flex;
+    margin: 5%
+    }
+
+.grid-item{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;}
+
+    
+    
+
+
+
+    @media screen and (min-width:414px)
+    {
+        .grid-item{
+            flex-basis: 50%;
+            }
+    
+    }
+    
+    @media screen and (min-width:760px)
+    {
+        .grid-item{
+            
+            flex-basis: 33.333%;
+    
+    }
+    
+    
+    
+    
+    
+
+
